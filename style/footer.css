@@ -1,0 +1,118 @@
+.section-nine {
+    display: flex;
+    justify-content: center;
+    background: #EEEEEE;
+    padding-top: 92px;
+    padding-bottom: 43px;
+}
+
+.text-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-7 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-8 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    font-family: "GraphikLCG-Semibold";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+color: #000000;
+}
+
+.img-velo {
+    margin-top: 28px;
+}
+
+.img-spec {
+    margin-top: 31px;
+}
+
+.text-global {
+    margin-top: 11px;
+    font-family: "GraphikLCG-Regular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.link-read {
+    font-family: "GraphikLCG-Semibold";
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.text-big {
+    font-family: "GraphikLCG-Semibold";
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.link-text {
+    text-decoration: none;
+    margin-top: 21px;
+    font-family: "GraphikLCG-Regular"; 
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.hr {
+    margin-top: 95px;
+    background: #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-loc {
+    margin-top: 47px;
+    display: flex;
+}
+
+.link-loc {
+    text-decoration: none;
+    margin-left: 14px;
+    font-family: "GraphikLCG-Regular"; 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.card-copy {
+    margin-right: 56px;
+    margin-top: 47px;
+}
+
+.link-copy {
+    text-decoration: none;
+    font-family: "GraphikLCG-Regular"; 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
