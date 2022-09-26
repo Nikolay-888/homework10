@@ -20,6 +20,7 @@ h2 {
 .wrapper-logo {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .section-two {

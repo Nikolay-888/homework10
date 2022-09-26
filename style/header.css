@@ -26,7 +26,6 @@
 .nav-container {
     padding-top: 34px;
     padding-bottom: 34px;
-   
     display: flex;
     justify-content: space-between;
 }
@@ -121,7 +120,7 @@
 h1 {
     font-family: "GraphikLCG-Semibold";
     font-weight: 600;
-    font-size: 65px;
+    font-size: 64px;
     line-height: 70px;
     color: #000000;
 }
