@@ -1,6 +1,4 @@
 .section-one {
-    display: flex;
-    justify-content: center;
     background: #FF9C7D;
     padding-bottom: 104px;
     padding-top: 108px;
@@ -19,13 +17,8 @@ h2 {
 
 .wrapper-logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
-
-.section-two {
-    display: flex;
-    justify-content: center;
 }
 
 .wrap-one {
@@ -78,8 +71,6 @@ h3 {
     padding-top:120px;
     padding-bottom: 150px;
     margin-top: 150px;
-    display: flex;
-    justify-content: center;
     background: #FFF8E4;
  
 }
@@ -142,8 +133,6 @@ h4 {
 }
 
 .section-four {
-    display: flex;
-    justify-content: center;
     padding-top: 154px;
     padding-bottom: 187px;
 }
@@ -241,8 +230,6 @@ h4 {
     padding-top: 53px;
     padding-bottom: 105px;
     background: #C9E8F2;
-    display: flex;
-    justify-content: center;
 }
 
 .card-3{
@@ -272,8 +259,6 @@ h4 {
 .section-six {
     padding-top: 80px;
     padding-bottom: 88px;
-    display: flex;
-    justify-content: center;
     background: #DABC98;
 }
 
@@ -318,8 +303,6 @@ h4 {
 .section-seven {
     padding-top: 165px;
     padding-bottom: 162px;
-    display: flex;
-    justify-content: center;
 }
 
 .card-6 {
@@ -379,8 +362,6 @@ h4 {
 .section-eight {
     padding-top: 119px;
     padding-bottom: 161px;
-    display: flex;
-    justify-content: center;
     background: #FF9C7D;
 }
 
