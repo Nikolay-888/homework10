@@ -434,6 +434,15 @@ h4 {
         align-items: center;
     }
 
+    .card-2:not(:first-child) {
+        margin-left: 10px;
+       }
+
+       .text-img-one .text-img-two .text-img-free {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
     .text-img-one {
         font-size: 22px;
         line-height: 20px;
@@ -490,9 +499,13 @@ h4 {
         line-height: 18px;
     }
 
-    .text-img-free {
-        font-size: 20px;
-        line-height: 18px;
+   .card-2 {
+    margin-left: 20px;
+   }
+
+    .text-img-one .text-img-two .text-img-free {
+        font-size: 15px;
+        line-height: 15px;
     }
 
     .section-five {
