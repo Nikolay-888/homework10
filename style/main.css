@@ -633,19 +633,9 @@ h4 {
         line-height: 30px;
     }
 
-    .text-img-one {
-        font-size: 17px;
-        line-height: 17px;
-    }
-
-    .text-img-two {
-        font-size: 17px;
-        line-height: 17px;
-    }
-
-    .text-img-free {
-        font-size: 17px;
-        line-height: 17px;
+    .text-img-one, .text-img-two, .text-img-free {
+        font-size: 20px;
+        line-height: 20px;
     }
 
     .card-text-tort {
