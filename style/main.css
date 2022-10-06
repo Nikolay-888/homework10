@@ -695,8 +695,11 @@ h4 {
         line-height: 25px;
     }
 
+    .card-6 {
+        width: 100%;
+    }
+
     .button-try {
-        margin-top: 100px;
         width: 100%;
     }
 
