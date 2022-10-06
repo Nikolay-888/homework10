@@ -1,5 +1,6 @@
-.section-one {
-    background: #FF9C7D;
+
+.partners {
+    background-color: #FF9C7D;
     padding-bottom: 104px;
     padding-top: 108px;
 }
@@ -31,10 +32,9 @@ h2 {
     display: flex;
     flex-direction: column;
     align-self: center;
-
 }
 
-h3 {
+.text-h3{
     font-family: "GraphikLCG-Semibold";
     font-weight: 600;
     font-size: 50px;
@@ -72,7 +72,6 @@ h3 {
     padding-bottom: 150px;
     margin-top: 150px;
     background: #FFF8E4;
- 
 }
 
 .title-text {   
@@ -81,6 +80,7 @@ h3 {
 }
 
 h4 {
+    font-family: "GraphikLCG-Semibold";
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -100,7 +100,6 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .link-two {
@@ -122,12 +121,10 @@ h4 {
     line-height: 25px;
     text-align: center;
     color: #000000;
-  
 }
 
 .card-img-container-2 {
     margin-top: 54px;
-
     display: flex;
     justify-content: space-around;
 }
@@ -146,7 +143,6 @@ h4 {
 .card-2 {
     display: flex;
     flex-direction: column;
-
 }
 
 .img-manager {
@@ -267,8 +263,6 @@ h4 {
     justify-content: space-between;
 }
 
-
-
 .card-text-tort {
     display: flex;
     margin-top: 10px;
@@ -282,7 +276,6 @@ h4 {
     font-size: 35px;
     line-height: 50px;
     color: #000000;
-
 }
 
 .card-5 {
@@ -308,8 +301,6 @@ h4 {
 .card-6 {
     display: flex;
    flex-direction: column;
-   
-
 }
 
 .text-h5 {
@@ -360,12 +351,12 @@ h4 {
 }
 
 .section-eight {
-    padding-top: 119px;
-    padding-bottom: 161px;
     background: #FF9C7D;
 }
 
 .text-wrapper {
+    padding-top: 119px;
+    padding-bottom: 161px;
     display: flex;
     justify-content: center;
 }
@@ -401,4 +392,312 @@ h4 {
 .button-try:hover {
     background-color: #ff3b05;
     color: #221746;
+}
+
+@media (max-width: 1200px) {
+    
+    .section-one {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        height: 800px;
+    }
+
+    .img-logo {
+        width: 200px;;
+    }
+
+    .wrap-one {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrap-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .all-start {
+        margin-bottom: 30px;
+    }
+
+         
+    .wrap-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-img-one {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .text-img-two {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .text-img-free {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .card-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-5 {
+        margin-top: 50px;
+    }
+
+    .img-picture555 {
+        width: 850px;
+    }
+
+}
+
+@media (max-width: 810px) {
+    
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .img-image {
+        width: 100%;
+    }
+
+    .wrap-two {
+        margin-top: 150px;
+     }
+
+     .text-img-one {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .text-img-two {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .text-img-free {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .section-five {
+        padding-bottom: 53px;
+       
+    }
+
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-lokalise {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .section-seven {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .img-picture555 {
+        width: 670px;
+    }
+
+    .btn-see {
+        width: 300px;
+       
+    }
+
+    .text-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+    .button-try {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 625px) {
+
+    .section-one {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .wrapper-logo {
+        height: 400px;
+    }
+
+    .img-logo {
+        width: 100px;
+    }
+
+    .text-h3 {
+       font-size: 30px;
+       line-height: 35px;
+    }
+
+    .img-image_1 {
+        width: 100%;
+    }
+
+    .text-one {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .section-two {
+        margin-top: 50px;
+    }
+
+    .section-free {
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h4 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .section-four {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .card-img-container {
+        display: flex;
+     flex-wrap: wrap;
+    }
+
+    .card-img-container-2 {
+        margin-top: 54px;
+        flex-wrap: wrap;
+    }
+
+    .card-logo-container {
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+    }
+
+    .card-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .text-img-one {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .text-img-two {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .text-img-free {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .card-text-tort {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tort {
+        width: 130px;
+    }
+
+    .text-most-loved {
+        margin-left: 0;
+        text-align: center;
+        font-size: 28px;
+        line-height: 25px;
+    }
+
+    .card-5 {
+        width: auto;
+    }
+
+    .img-g2 {
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .img-capterra {
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .text-h5 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .text-localise {
+        margin-top: 40px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .img-picture555 {
+        width: 100%;
+    }
+
+    .btn-see {
+        width: 100%;
+    }
+
+    .text-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .text-it-works {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .button-try {
+        margin-top: 100px;
+        width: 100%;
+    }
+
 }

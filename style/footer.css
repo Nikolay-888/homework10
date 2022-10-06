@@ -26,8 +26,7 @@ h6 {
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
-
-color: #000000;
+    color: #000000;
 }
 
 .img-velo {
@@ -113,4 +112,64 @@ color: #000000;
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+}
+
+@media (max-width: 1200px) {
+
+    .text-wrap {
+        flex-wrap: wrap;
+    }
+
+
+    .link-text{
+        font-size: 17px;
+        line-height: 13px;
+    }
+
+}
+
+@media (max-width: 810px) {
+
+    .text-wrap {
+        flex-wrap: wrap;
+    }
+
+    .link-text {
+        font-size: 15px;
+        line-height: 10px;
+    }
+}
+
+
+@media (max-width: 625px) {
+    
+    .section-nine {
+       
+        padding-top: 50px;
+    }
+
+    .text-wrap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link-read {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .card-8 {
+        margin-top: 50px;
+    }
+
+    .text-big {
+        font-size: 17px;
+        line-height: 18px;
+    }
+
+    .hr {
+        margin-top: 50px;
+    }
 }

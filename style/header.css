@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+.wrapp {
+    min-width: 320px;
+}
+
 .fix-size-container {
     max-width: 1290px;
     padding: 0 15px;
@@ -56,9 +60,6 @@
     color: #000000;
 }
 
-.button {
-    display: flex;
-}
 
 .btn-log {
     font-family: "GraphikLCG-Semibold";
@@ -112,16 +113,15 @@
 }
 
 .text-title {
-    width: 550px;
     font-family: "GraphikLCG-Semibold";
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 115%;
+    font-weight: 600px;
+    font-size: 65px;
+    line-height: 70px;
     color: #000000;
 }
 
 .text {
-    width: 471px;
+    max-width: 471px;
     margin-top: 51px;
     font-family: "GraphikLCG-Regular";
     font-weight: 400;
@@ -131,7 +131,6 @@
 }
 
 .btn {
-    display: flex;
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -182,7 +181,11 @@
     color: #000000;
 }
 
-@media (max-width: 1100px) {
+.img-picture1 {
+    width: 759px;
+}
+
+@media (max-width: 1200px) {
     .nav-container{
         flex-direction: column;
         align-items: center;
@@ -351,4 +354,5 @@
     .text-info {
         font-size: 12px;
     }
+
 }
